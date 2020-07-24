@@ -1,15 +1,15 @@
 const tasks = {
   tasks: [
     {
-      text: "Grocery shopping",
+      text: 'Grocery shopping',
       completed: true,
     },
     {
-      text: "Clean yard",
+      text: 'Clean yard',
       completed: false,
     },
     {
-      text: "Film course",
+      text: 'Film course',
       completed: false,
     },
   ],

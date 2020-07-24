@@ -1,5 +1,5 @@
 setTimeout(() => {
-  console.log("2 seconds later");
+  console.log('2 seconds later');
 }, 2000);
 const geocode = (address, callback) => {
   setTimeout(() => {
@@ -10,7 +10,7 @@ const geocode = (address, callback) => {
     callback(data);
   }, 2000);
 };
-geocode("India", (data) => {
+geocode('India', (data) => {
   console.log(data);
 });
 
