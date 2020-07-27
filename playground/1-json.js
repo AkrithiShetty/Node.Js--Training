@@ -1,7 +1,7 @@
 const fs = require('fs');
 // const book = {
-//   title: 'IOT',
-//   author: 'Robert',
+// 	title: 'IOT',
+// 	author: 'Robert'
 // };
 // const bookJSON = JSON.stringify(book);
 // fs.writeFileSync('1-json.json', bookJSON);

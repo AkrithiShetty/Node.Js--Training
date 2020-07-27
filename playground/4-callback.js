@@ -23,15 +23,15 @@
 // add(1, 4, (sum) => console.log(sum));
 
 const doWorkCallback = (callback) => {
-  setTimeout(() => {
-    callback('Error');
-    callback(undefined, [1, 2, 3]);
-  }, 2000);
+	setTimeout(() => {
+		callback('Error');
+		callback(undefined, [1, 2, 3]);
+	}, 2000);
 };
 
 doWorkCallback((error, res) => {
-  if (error) {
-    return console.log(error);
-  }
-  console.log(res);
+	if (error) {
+		return console.log(error);
+	}
+	console.log(res);
 });

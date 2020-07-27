@@ -1,20 +1,20 @@
 const name = 'Akrithi';
 const age = 22;
 const user = {
-  name, // Property shorthand
-  uage: age,
-  location: 'NITK',
+	name, // Property shorthand
+	uage: age,
+	location: 'NITK'
 };
 console.log(user);
 
 //object destructuring
 
 const product = {
-  label: 'Chocolate',
-  stock: 50,
-  price: 5,
-  saleprice: undefined,
-  rating: 4.8,
+	label: 'Chocolate',
+	stock: 50,
+	price: 5,
+	saleprice: undefined,
+	rating: 4.8
 };
 // const label = product.label;
 // const stock = product.stock;
@@ -24,7 +24,7 @@ console.log(p, stock, rating);
 //destructuring in function
 
 const transaction = (type, { label, stock }) => {
-  console.log(type, label, stock);
+	console.log(type, label, stock);
 };
 transaction('order', product);
 
