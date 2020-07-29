@@ -3,6 +3,7 @@
 // const add = function (a, b) {
 //   return a + b;
 // };
+
 const fs = require('fs');
 const chalk = require('chalk');
 const getNotes = () => {
