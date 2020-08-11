@@ -14,16 +14,16 @@ app.listen(port, () => {
 	console.log('Server is up on port ', port);
 });
 
-// const bcrypt = require('bcryptjs');
-// const myFunction = async () => {
-// 	const password = 'red1234';
-// 	const hashedPassword = await bcrypt.hash(password, 8);
+// const Task = require('./models/task');
+// const User = require('./models/user');
+// const main = async () => {
+// 	// const task = await Tasks.findById('5f322afa962d5b19063410c7');
+// 	// await task.populate('owner').execPopulate();
+// 	// console.log(task.owner);
 
-// 	console.log(password, hashedPassword);
-
-// 	const isMatch = await bcrypt.compare('Red1234', hashedPassword);
-
-// 	console.log(isMatch);
+// 	const user = await User.findById('5f322a2d190622188a04c6a6');
+// 	await user.populate('tasks').execPopulate();
+// 	console.log(user.tasks);
 // };
 
-// myFunction();
+// main();
